@@ -399,7 +399,7 @@ try {
 }
 ```
 
-This example searches your IdentityNow tenant for all identities and sorts them by their `displayName` in descending order. The search returns a maximum of 1000 records, the `Limit`, and 50 records per page, the `Increment`.
+This example searches your IdentityNow tenant for all identities and sorts them by their `displayName` in descending order. The search returns a maximum of 10,000 records, the `Limit`, and 50 records per page, the `Increment`.
 
 To paginate the search results, you can specify these parameters: -`Increment`: The number of records to return per page. -`Limit`: The maximum number of records to return per request. The default is 250. -`Offset`: The number of the first record to return with the request. The default is 0.
 
